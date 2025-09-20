@@ -22,6 +22,7 @@ export default {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          hover: "hsl(var(--primary-hover))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
@@ -47,6 +48,13 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        // Brand Colors
+        "brand-blue": "hsl(var(--brand-blue))",
+        "brand-purple": "hsl(var(--brand-purple))",
+        "brand-navy": "hsl(var(--brand-navy))",
+        "brand-light": "hsl(var(--brand-light))",
+        // WhatsApp Green
+        "whatsapp": "34 100% 47%",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -62,6 +70,20 @@ export default {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+      },
+      backgroundImage: {
+        "gradient-primary": "var(--gradient-primary)",
+        "gradient-hero": "var(--gradient-hero)",
+        "gradient-card": "var(--gradient-card)",
+      },
+      boxShadow: {
+        "brand-sm": "var(--shadow-sm)",
+        "brand-md": "var(--shadow-md)",
+        "brand-lg": "var(--shadow-lg)",
+        "brand-xl": "var(--shadow-xl)",
+      },
+      fontFamily: {
+        sans: ["Inter", "system-ui", "sans-serif"],
       },
       keyframes: {
         "accordion-down": {
