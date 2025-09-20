@@ -35,7 +35,7 @@ const WhatsAppButton = () => {
           <MessageCircle className="w-6 h-6" />
           
           {/* Pulse Animation */}
-          <div className="absolute inset-0 bg-green-500 rounded-full animate-ping opacity-75"></div>
+          <div className="absolute inset-0 bg-brand-green rounded-full animate-ping opacity-75"></div>
         </div>
       </a>
     </div>

@@ -48,10 +48,10 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        // Brand Colors
+        // Brand Colors - CMW Palette
         "brand-blue": "hsl(var(--brand-blue))",
-        "brand-purple": "hsl(var(--brand-purple))",
-        "brand-navy": "hsl(var(--brand-navy))",
+        "brand-green": "hsl(var(--brand-green))",
+        "brand-light-blue": "hsl(var(--brand-light-blue))",
         "brand-light": "hsl(var(--brand-light))",
         // WhatsApp Green
         "whatsapp": "34 100% 47%",
