@@ -20,6 +20,7 @@ const Index = () => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
           entry.target.classList.add('animate-in');
+          observer.unobserve(entry.target); // Stop observing after animation
         }
       });
     }, observerOptions);

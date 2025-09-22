@@ -31,7 +31,7 @@ All colors MUST be HSL.
     --secondary-foreground: 0 0% 100%;
 
     /* Accent Colors - CMW Accent Green */
-    --accent: 120 61% 50%;
+    --accent: 147 60% 50%;
     --accent-foreground: 0 0% 100%;
 
     /* Muted Colors */
@@ -48,14 +48,15 @@ All colors MUST be HSL.
     --ring: 120 61% 50%;
 
     /* Custom Brand Colors - CMW Palette */
+    --brand-navy: 210 100% 20%;
     --brand-blue: 210 100% 20%;
-    --brand-green: 120 61% 50%;
+    --brand-green: 147 60% 50%;
     --brand-light-blue: 210 50% 60%;
     --brand-light: 0 0% 95%;
 
     /* Gradients - CMW Brand */
-    --gradient-primary: linear-gradient(135deg, hsl(210 100% 20%), hsl(120 61% 50%));
-    --gradient-hero: linear-gradient(135deg, hsl(210 100% 20%) 0%, hsl(210 50% 60%) 50%, hsl(120 61% 50%) 100%);
+    --gradient-primary: linear-gradient(135deg, hsl(210 100% 20%), hsl(147 60% 50%));
+    --gradient-hero: linear-gradient(135deg, hsl(210 100% 20%) 0%, hsl(210 50% 60%) 50%, hsl(147 60% 50%) 100%);
     --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(0 0% 95%));
 
     /* Shadows - CMW Brand */
@@ -110,7 +111,7 @@ All colors MUST be HSL.
     --secondary-foreground: 0 0% 100%;
 
     /* Accent Colors */
-    --accent: 120 61% 55%;
+    --accent: 147 60% 50%;
     --accent-foreground: 0 0% 100%;
 
     /* Muted Colors */
@@ -127,14 +128,15 @@ All colors MUST be HSL.
     --ring: 120 61% 55%;
 
     /* Custom Brand Colors for Dark Mode */
+    --brand-navy: 210 100% 25%;
     --brand-blue: 210 100% 25%;
-    --brand-green: 120 61% 55%;
+    --brand-green: 147 60% 50%;
     --brand-light-blue: 210 50% 65%;
     --brand-light: 210 50% 12%;
 
     /* Dark Mode Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(210 100% 25%), hsl(120 61% 55%));
-    --gradient-hero: linear-gradient(135deg, hsl(210 100% 25%) 0%, hsl(210 50% 65%) 50%, hsl(120 61% 55%) 100%);
+    --gradient-primary: linear-gradient(135deg, hsl(210 100% 25%), hsl(147 60% 50%));
+    --gradient-hero: linear-gradient(135deg, hsl(210 100% 25%) 0%, hsl(210 50% 65%) 50%, hsl(147 60% 50%) 100%);
     --gradient-card: linear-gradient(145deg, hsl(210 50% 12%), hsl(210 30% 15%));
 
     /* Dark Mode Shadows */
@@ -170,11 +172,11 @@ All colors MUST be HSL.
 @layer components {
   /* Hero Button Variants */
   .btn-hero {
-    @apply bg-gradient-to-r from-brand-blue to-brand-green text-white font-semibold px-8 py-4 rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300;
+    @apply bg-gradient-to-r from-brand-navy to-brand-green text-white font-semibold px-8 py-4 rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300;
   }
 
   .btn-hero-outline {
-    @apply border-2 border-brand-blue text-brand-blue bg-transparent font-semibold px-8 py-4 rounded-lg hover:bg-brand-blue hover:text-white transition-all duration-300;
+    @apply border-2 border-brand-navy text-brand-navy bg-transparent font-semibold px-8 py-4 rounded-lg hover:bg-brand-navy hover:text-white transition-all duration-300;
   }
 
   /* WhatsApp Button */
@@ -192,23 +194,36 @@ All colors MUST be HSL.
     @apply bg-gradient-to-br from-card to-brand-light border border-border rounded-xl p-8 shadow-md hover:shadow-lg transition-all duration-300 hover:transform hover:scale-105;
   }
 
-  /* Animations */
+  /* Animations - Lazy loading approach */
   .fade-in {
-    animation: fadeIn 0.6s ease-out forwards;
     opacity: 0;
     transform: translateY(20px);
   }
 
   .slide-in-left {
-    animation: slideInLeft 0.6s ease-out forwards;
     opacity: 0;
     transform: translateX(-20px);
   }
 
   .slide-in-right {
-    animation: slideInRight 0.6s ease-out forwards;
     opacity: 0;
     transform: translateX(20px);
+  }
+
+  /* Only animate when intersected */
+  .animate-in.fade-in {
+    animation: fadeIn 0.6s ease-out forwards;
+    will-change: opacity, transform;
+  }
+
+  .animate-in.slide-in-left {
+    animation: slideInLeft 0.6s ease-out forwards;
+    will-change: opacity, transform;
+  }
+
+  .animate-in.slide-in-right {
+    animation: slideInRight 0.6s ease-out forwards;
+    will-change: opacity, transform;
   }
 }
 

@@ -49,6 +49,7 @@ export default {
           foreground: "hsl(var(--card-foreground))",
         },
         // Brand Colors - CMW Palette
+        "brand-navy": "hsl(var(--brand-navy))",
         "brand-blue": "hsl(var(--brand-blue))",
         "brand-green": "hsl(var(--brand-green))",
         "brand-light-blue": "hsl(var(--brand-light-blue))",
