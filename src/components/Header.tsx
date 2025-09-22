@@ -46,37 +46,37 @@ const Header = () => {
               onClick={() => scrollToSection("home")}
               className="text-foreground hover:text-primary transition-colors duration-200 font-medium"
             >
-              Home
+              Início
             </button>
             <button
               onClick={() => scrollToSection("about")}
               className="text-foreground hover:text-primary transition-colors duration-200 font-medium"
             >
-              About
+              Sobre
             </button>
             <button
               onClick={() => scrollToSection("services")}
               className="text-foreground hover:text-primary transition-colors duration-200 font-medium"
             >
-              Services
+              Serviços
             </button>
             <button
               onClick={() => scrollToSection("why-us")}
               className="text-foreground hover:text-primary transition-colors duration-200 font-medium"
             >
-              Why Us
+              Por Que Nós
             </button>
             <button
               onClick={() => scrollToSection("contact")}
               className="text-foreground hover:text-primary transition-colors duration-200 font-medium"
             >
-              Contact
+              Contato
             </button>
             <Button
               onClick={() => scrollToSection("contact")}
               className="btn-hero ml-4"
             >
-              Get Started
+              Começar
             </Button>
           </nav>
 
@@ -101,38 +101,38 @@ const Header = () => {
                 onClick={() => scrollToSection("home")}
                 className="block w-full text-left px-4 py-3 text-foreground hover:text-primary hover:bg-muted/50 transition-colors duration-200 font-medium"
               >
-                Home
+                Início
               </button>
               <button
                 onClick={() => scrollToSection("about")}
                 className="block w-full text-left px-4 py-3 text-foreground hover:text-primary hover:bg-muted/50 transition-colors duration-200 font-medium"
               >
-                About
+                Sobre
               </button>
               <button
                 onClick={() => scrollToSection("services")}
                 className="block w-full text-left px-4 py-3 text-foreground hover:text-primary hover:bg-muted/50 transition-colors duration-200 font-medium"
               >
-                Services
+                Serviços
               </button>
               <button
                 onClick={() => scrollToSection("why-us")}
                 className="block w-full text-left px-4 py-3 text-foreground hover:text-primary hover:bg-muted/50 transition-colors duration-200 font-medium"
               >
-                Why Us
+                Por Que Nós
               </button>
               <button
                 onClick={() => scrollToSection("contact")}
                 className="block w-full text-left px-4 py-3 text-foreground hover:text-primary hover:bg-muted/50 transition-colors duration-200 font-medium"
               >
-                Contact
+                Contato
               </button>
               <div className="px-4 pt-2">
                 <Button
                   onClick={() => scrollToSection("contact")}
                   className="btn-hero w-full"
                 >
-                  Get Started
+                  Começar
                 </Button>
               </div>
             </nav>

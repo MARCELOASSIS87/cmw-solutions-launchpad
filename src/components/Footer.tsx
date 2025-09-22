@@ -20,9 +20,9 @@ const Footer = () => {
               CMW Solutions
             </h3>
             <p className="text-gray-300 mb-6 leading-relaxed">
-              Leading provider of IP camera monitoring solutions for educational institutions 
-              and custom software development services. Protecting communities and empowering 
-              businesses through innovative technology.
+              Fornecedor líder de soluções de monitoramento por câmeras IP para instituições educacionais 
+              e serviços de desenvolvimento de software personalizado. Protegendo comunidades e capacitando 
+              empresas através de tecnologia inovadora.
             </p>
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
@@ -42,14 +42,14 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div>
-            <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
+            <h4 className="text-lg font-semibold mb-4">Links Rápidos</h4>
             <ul className="space-y-2">
               <li>
                 <button
                   onClick={() => scrollToSection("home")}
                   className="text-gray-300 hover:text-blue-400 transition-colors duration-200"
                 >
-                  Home
+                  Início
                 </button>
               </li>
               <li>
@@ -57,7 +57,7 @@ const Footer = () => {
                   onClick={() => scrollToSection("about")}
                   className="text-gray-300 hover:text-blue-400 transition-colors duration-200"
                 >
-                  About Us
+                  Sobre Nós
                 </button>
               </li>
               <li>
@@ -65,7 +65,7 @@ const Footer = () => {
                   onClick={() => scrollToSection("services")}
                   className="text-gray-300 hover:text-blue-400 transition-colors duration-200"
                 >
-                  Services
+                  Serviços
                 </button>
               </li>
               <li>
@@ -73,7 +73,7 @@ const Footer = () => {
                   onClick={() => scrollToSection("why-us")}
                   className="text-gray-300 hover:text-blue-400 transition-colors duration-200"
                 >
-                  Why Choose Us
+                  Por Que Nos Escolher
                 </button>
               </li>
               <li>
@@ -81,7 +81,7 @@ const Footer = () => {
                   onClick={() => scrollToSection("contact")}
                   className="text-gray-300 hover:text-blue-400 transition-colors duration-200"
                 >
-                  Contact
+                  Contato
                 </button>
               </li>
             </ul>
@@ -89,22 +89,22 @@ const Footer = () => {
 
           {/* Services */}
           <div>
-            <h4 className="text-lg font-semibold mb-4">Our Services</h4>
+            <h4 className="text-lg font-semibold mb-4">Nossos Serviços</h4>
             <ul className="space-y-2">
               <li>
-                <span className="text-gray-300">IP Camera Monitoring</span>
+                <span className="text-gray-300">Monitoramento por Câmeras IP</span>
               </li>
               <li>
-                <span className="text-gray-300">Custom Software Development</span>
+                <span className="text-gray-300">Desenvolvimento de Software Personalizado</span>
               </li>
               <li>
-                <span className="text-gray-300">Security Consulting</span>
+                <span className="text-gray-300">Consultoria em Segurança</span>
               </li>
               <li>
-                <span className="text-gray-300">System Integration</span>
+                <span className="text-gray-300">Integração de Sistemas</span>
               </li>
               <li>
-                <span className="text-gray-300">24/7 Support</span>
+                <span className="text-gray-300">Suporte 24/7</span>
               </li>
             </ul>
           </div>
@@ -114,17 +114,17 @@ const Footer = () => {
         <div className="border-t border-gray-700 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm mb-4 md:mb-0">
-              © {currentYear} CMW Solutions. All rights reserved.
+              © {currentYear} CMW Solutions. Todos os direitos reservados.
             </p>
             <div className="flex space-x-6 text-sm">
               <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors duration-200">
-                Privacy Policy
+                Política de Privacidade
               </a>
               <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors duration-200">
-                Terms of Service
+                Termos de Serviço
               </a>
               <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors duration-200">
-                Cookie Policy
+                Política de Cookies
               </a>
             </div>
           </div>

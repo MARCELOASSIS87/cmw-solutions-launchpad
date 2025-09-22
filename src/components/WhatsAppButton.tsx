@@ -5,7 +5,7 @@ const WhatsAppButton = () => {
   const [isHovered, setIsHovered] = useState(false);
   
   const whatsappNumber = "5535992181400";
-  const message = "Hi! I'm interested in CMW Solutions services. Could you please provide more information?";
+  const message = "Olá! Tenho interesse nos serviços da CMW Solutions. Poderiam fornecer mais informações?";
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
 
   return (
@@ -25,10 +25,10 @@ const WhatsAppButton = () => {
               ? "opacity-100 translate-x-0" 
               : "opacity-0 translate-x-2 pointer-events-none"
           }`}
-        >
-          Contact us on WhatsApp
-          <div className="absolute top-1/2 right-0 transform translate-x-full -translate-y-1/2 border-4 border-transparent border-l-gray-900"></div>
-        </div>
+          >
+            Entre em contato pelo WhatsApp
+            <div className="absolute top-1/2 right-0 transform translate-x-full -translate-y-1/2 border-4 border-transparent border-l-gray-900"></div>
+          </div>
 
         {/* Button */}
         <div className="whatsapp-float group-hover:shadow-2xl">

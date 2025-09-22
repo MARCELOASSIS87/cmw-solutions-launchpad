@@ -30,8 +30,8 @@ const ContactSection = () => {
     // Basic validation
     if (!formData.name || !formData.email || !formData.message) {
       toast({
-        title: "Please fill in all required fields",
-        description: "Name, email, and message are required.",
+        title: "Por favor, preencha todos os campos obrigatórios",
+        description: "Nome, e-mail e mensagem são obrigatórios.",
         variant: "destructive"
       });
       return;
@@ -39,8 +39,8 @@ const ContactSection = () => {
 
     // Simulate form submission
     toast({
-      title: "Message sent successfully!",
-      description: "We'll get back to you within 24 hours.",
+      title: "Mensagem enviada com sucesso!",
+      description: "Retornaremos em até 24 horas.",
     });
 
     // Reset form
@@ -60,14 +60,14 @@ const ContactSection = () => {
           {/* Section Header */}
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6 fade-in">
-              Get In{" "}
+              Entre em{" "}
               <span className="bg-gradient-primary bg-clip-text text-transparent">
-                Touch
+                Contato
               </span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto fade-in">
-              Ready to enhance your security or bring your software vision to life? 
-              Let's discuss how we can help you achieve your goals.
+              Pronto para melhorar sua segurança ou dar vida à sua visão de software? 
+              Vamos discutir como podemos ajudá-lo a alcançar seus objetivos.
             </p>
           </div>
 
@@ -77,14 +77,14 @@ const ContactSection = () => {
               <Card className="bg-card border-border shadow-brand-lg">
                 <CardContent className="p-8">
                   <h3 className="text-2xl font-bold text-foreground mb-6">
-                    Send us a message
+                    Envie-nos uma mensagem
                   </h3>
                   
                   <form onSubmit={handleSubmit} className="space-y-6">
                     <div className="grid md:grid-cols-2 gap-4">
                       <div>
                         <label htmlFor="name" className="block text-sm font-medium text-foreground mb-2">
-                          Name *
+                          Nome *
                         </label>
                         <Input
                           id="name"
@@ -93,13 +93,13 @@ const ContactSection = () => {
                           value={formData.name}
                           onChange={handleInputChange}
                           className="w-full"
-                          placeholder="Your name"
+                          placeholder="Seu nome"
                           required
                         />
                       </div>
                       <div>
                         <label htmlFor="email" className="block text-sm font-medium text-foreground mb-2">
-                          Email *
+                          E-mail *
                         </label>
                         <Input
                           id="email"
@@ -108,7 +108,7 @@ const ContactSection = () => {
                           value={formData.email}
                           onChange={handleInputChange}
                           className="w-full"
-                          placeholder="your@email.com"
+                          placeholder="seu@email.com"
                           required
                         />
                       </div>
@@ -117,7 +117,7 @@ const ContactSection = () => {
                     <div className="grid md:grid-cols-2 gap-4">
                       <div>
                         <label htmlFor="phone" className="block text-sm font-medium text-foreground mb-2">
-                          Phone
+                          Telefone
                         </label>
                         <Input
                           id="phone"
@@ -131,7 +131,7 @@ const ContactSection = () => {
                       </div>
                       <div>
                         <label htmlFor="service" className="block text-sm font-medium text-foreground mb-2">
-                          Service of Interest
+                          Serviço de Interesse
                         </label>
                         <select
                           id="service"
@@ -140,19 +140,19 @@ const ContactSection = () => {
                           onChange={handleInputChange}
                           className="w-full px-3 py-2 border border-input bg-background rounded-md focus:outline-none focus:ring-2 focus:ring-ring"
                         >
-                          <option value="">Select a service</option>
-                          <option value="ip-monitoring">IP Camera Monitoring</option>
-                          <option value="custom-software">Custom Software Development</option>
-                          <option value="security-consulting">Security Consulting</option>
-                          <option value="system-integration">System Integration</option>
-                          <option value="other">Other</option>
+                          <option value="">Selecione um serviço</option>
+                          <option value="ip-monitoring">Monitoramento por Câmeras IP</option>
+                          <option value="custom-software">Desenvolvimento de Software Personalizado</option>
+                          <option value="security-consulting">Consultoria em Segurança</option>
+                          <option value="system-integration">Integração de Sistemas</option>
+                          <option value="other">Outro</option>
                         </select>
                       </div>
                     </div>
 
                     <div>
                       <label htmlFor="message" className="block text-sm font-medium text-foreground mb-2">
-                        Message *
+                        Mensagem *
                       </label>
                       <Textarea
                         id="message"
@@ -160,14 +160,14 @@ const ContactSection = () => {
                         value={formData.message}
                         onChange={handleInputChange}
                         className="w-full h-32"
-                        placeholder="Tell us about your project or requirements..."
+                        placeholder="Conte-nos sobre seu projeto ou requisitos..."
                         required
                       />
                     </div>
 
                     <Button type="submit" className="btn-hero w-full">
                       <Send className="w-4 h-4 mr-2" />
-                      Send Message
+                      Enviar Mensagem
                     </Button>
                   </form>
                 </CardContent>
@@ -178,11 +178,11 @@ const ContactSection = () => {
             <div className="space-y-8 slide-in-right">
               <div>
                 <h3 className="text-2xl font-bold text-foreground mb-6">
-                  Contact Information
+                  Informações de Contato
                 </h3>
                 <p className="text-muted-foreground mb-8">
-                  Get in touch with us through any of these channels. We're here to help 
-                  you find the perfect solution for your needs.
+                  Entre em contato conosco através de qualquer um destes canais. Estamos aqui para ajudar 
+                  você a encontrar a solução perfeita para suas necessidades.
                 </p>
               </div>
 
@@ -194,7 +194,7 @@ const ContactSection = () => {
                         <Phone className="w-6 h-6 text-white" />
                       </div>
                       <div>
-                        <h4 className="font-semibold text-foreground mb-1">Phone & WhatsApp</h4>
+                        <h4 className="font-semibold text-foreground mb-1">Telefone & WhatsApp</h4>
                         <p className="text-muted-foreground">+55 35 99218-1400</p>
                       </div>
                     </div>
@@ -208,7 +208,7 @@ const ContactSection = () => {
                         <Mail className="w-6 h-6 text-white" />
                       </div>
                       <div>
-                        <h4 className="font-semibold text-foreground mb-1">Email</h4>
+                        <h4 className="font-semibold text-foreground mb-1">E-mail</h4>
                         <p className="text-muted-foreground">contact@cmwsolutions.com</p>
                       </div>
                     </div>
@@ -222,10 +222,10 @@ const ContactSection = () => {
                         <MapPin className="w-6 h-6 text-white" />
                       </div>
                       <div>
-                        <h4 className="font-semibold text-foreground mb-1">Address</h4>
+                        <h4 className="font-semibold text-foreground mb-1">Endereço</h4>
                         <p className="text-muted-foreground">
-                          Minas Gerais, Brazil<br />
-                          Remote services available nationwide
+                          Minas Gerais, Brasil<br />
+                          Serviços remotos disponíveis em todo o país
                         </p>
                       </div>
                     </div>
@@ -234,24 +234,24 @@ const ContactSection = () => {
               </div>
 
               <div className="bg-gradient-card rounded-xl p-6 border border-border">
-                <h4 className="font-bold text-foreground mb-4">Business Hours</h4>
+                <h4 className="font-bold text-foreground mb-4">Horário de Funcionamento</h4>
                 <div className="space-y-2 text-muted-foreground">
                   <div className="flex justify-between">
-                    <span>Monday - Friday:</span>
-                    <span>8:00 AM - 6:00 PM</span>
+                    <span>Segunda - Sexta:</span>
+                    <span>8:00 - 18:00</span>
                   </div>
                   <div className="flex justify-between">
-                    <span>Saturday:</span>
-                    <span>9:00 AM - 2:00 PM</span>
+                    <span>Sábado:</span>
+                    <span>9:00 - 14:00</span>
                   </div>
                   <div className="flex justify-between">
-                    <span>Sunday:</span>
-                    <span>Emergency only</span>
+                    <span>Domingo:</span>
+                    <span>Apenas emergências</span>
                   </div>
                 </div>
                 <div className="mt-4 pt-4 border-t border-border">
                   <p className="text-sm text-muted-foreground">
-                    * 24/7 monitoring services available for existing clients
+                    * Serviços de monitoramento 24/7 disponíveis para clientes existentes
                   </p>
                 </div>
               </div>

@@ -11,14 +11,14 @@ const ServicesSection = () => {
           {/* Section Header */}
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6 fade-in">
-              Our{" "}
+              Nossos{" "}
               <span className="bg-gradient-primary bg-clip-text text-transparent">
-                Services
+                Serviços
               </span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto fade-in">
-              Comprehensive solutions tailored to your needs. From advanced security monitoring 
-              to cutting-edge software development, we've got you covered.
+              Soluções abrangentes adaptadas às suas necessidades. Do monitoramento de segurança avançado 
+              ao desenvolvimento de software de ponta, nós temos tudo que você precisa.
             </p>
           </div>
 
@@ -34,10 +34,10 @@ const ServicesSection = () => {
                 />
                 <div>
                   <h3 className="text-2xl font-bold text-foreground mb-2">
-                    IP Camera Monitoring
+                    Monitoramento por Câmeras IP
                   </h3>
                   <p className="text-muted-foreground">
-                    Advanced security solutions for schools and institutions
+                    Soluções avançadas de segurança para escolas e instituições
                   </p>
                 </div>
               </div>
@@ -45,32 +45,32 @@ const ServicesSection = () => {
               <div className="space-y-4 mb-8">
                 <div className="flex items-center space-x-3">
                   <Camera className="w-5 h-5 text-primary" />
-                  <span className="text-foreground">High-definition camera systems</span>
+                  <span className="text-foreground">Sistemas de câmeras de alta definição</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <Shield className="w-5 h-5 text-primary" />
-                  <span className="text-foreground">24/7 real-time monitoring</span>
+                  <span className="text-foreground">Monitoramento 24/7 em tempo real</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <Smartphone className="w-5 h-5 text-primary" />
-                  <span className="text-foreground">Mobile access and alerts</span>
+                  <span className="text-foreground">Acesso mobile e alertas</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <Lock className="w-5 h-5 text-primary" />
-                  <span className="text-foreground">Secure cloud storage</span>
+                  <span className="text-foreground">Armazenamento seguro na nuvem</span>
                 </div>
               </div>
 
               <div className="bg-brand-light/30 rounded-lg p-4 mb-6">
-                <h4 className="font-semibold text-foreground mb-2">Perfect for:</h4>
+                <h4 className="font-semibold text-foreground mb-2">Perfeito para:</h4>
                 <p className="text-muted-foreground text-sm">
-                  Schools, universities, daycare centers, and educational facilities 
-                  requiring comprehensive security monitoring solutions.
+                  Escolas, universidades, creches e instituições educacionais 
+                  que necessitam de soluções abrangentes de monitoramento de segurança.
                 </p>
               </div>
 
               <Button className="btn-hero-outline w-full group-hover:bg-primary group-hover:text-white">
-                Learn More About Monitoring
+                Saiba Mais Sobre Monitoramento
               </Button>
             </div>
 
@@ -84,10 +84,10 @@ const ServicesSection = () => {
                 />
                 <div>
                   <h3 className="text-2xl font-bold text-foreground mb-2">
-                    Custom Software Development
+                    Desenvolvimento de Software Personalizado
                   </h3>
                   <p className="text-muted-foreground">
-                    Tailored software solutions for your business needs
+                    Soluções de software sob medida para suas necessidades de negócio
                   </p>
                 </div>
               </div>
@@ -95,32 +95,32 @@ const ServicesSection = () => {
               <div className="space-y-4 mb-8">
                 <div className="flex items-center space-x-3">
                   <Code className="w-5 h-5 text-primary" />
-                  <span className="text-foreground">Web & mobile applications</span>
+                  <span className="text-foreground">Aplicações web & mobile</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <Server className="w-5 h-5 text-primary" />
-                  <span className="text-foreground">Backend systems & APIs</span>
+                  <span className="text-foreground">Sistemas backend & APIs</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <Shield className="w-5 h-5 text-primary" />
-                  <span className="text-foreground">Secure & scalable architecture</span>
+                  <span className="text-foreground">Arquitetura segura & escalável</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <Smartphone className="w-5 h-5 text-primary" />
-                  <span className="text-foreground">Modern tech stack</span>
+                  <span className="text-foreground">Stack tecnológico moderno</span>
                 </div>
               </div>
 
               <div className="bg-brand-light/30 rounded-lg p-4 mb-6">
-                <h4 className="font-semibold text-foreground mb-2">Perfect for:</h4>
+                <h4 className="font-semibold text-foreground mb-2">Perfeito para:</h4>
                 <p className="text-muted-foreground text-sm">
-                  Businesses seeking custom solutions, automation tools, management systems, 
-                  or digital transformation initiatives.
+                  Empresas que buscam soluções personalizadas, ferramentas de automação, sistemas de gestão 
+                  ou iniciativas de transformação digital.
                 </p>
               </div>
 
               <Button className="btn-hero-outline w-full group-hover:bg-primary group-hover:text-white">
-                Discuss Your Project
+                Discuta Seu Projeto
               </Button>
             </div>
           </div>
@@ -128,16 +128,16 @@ const ServicesSection = () => {
           {/* Additional Services */}
           <div className="text-center">
             <h3 className="text-2xl font-bold text-foreground mb-8 fade-in">
-              Additional Services
+              Serviços Adicionais
             </h3>
             <div className="grid md:grid-cols-3 gap-6">
               <div className="bg-card rounded-lg p-6 border border-border hover:shadow-brand-md transition-all duration-300 fade-in">
                 <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center mx-auto mb-4">
                   <Shield className="w-6 h-6 text-white" />
                 </div>
-                <h4 className="text-lg font-semibold text-foreground mb-2">Security Consulting</h4>
+                <h4 className="text-lg font-semibold text-foreground mb-2">Consultoria em Segurança</h4>
                 <p className="text-muted-foreground text-sm">
-                  Expert advice on security infrastructure and best practices
+                  Consultoria especializada em infraestrutura de segurança e melhores práticas
                 </p>
               </div>
 
@@ -145,9 +145,9 @@ const ServicesSection = () => {
                 <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center mx-auto mb-4">
                   <Server className="w-6 h-6 text-white" />
                 </div>
-                <h4 className="text-lg font-semibold text-foreground mb-2">System Integration</h4>
+                <h4 className="text-lg font-semibold text-foreground mb-2">Integração de Sistemas</h4>
                 <p className="text-muted-foreground text-sm">
-                  Seamless integration of existing systems with new solutions
+                  Integração perfeita de sistemas existentes com novas soluções
                 </p>
               </div>
 
@@ -155,9 +155,9 @@ const ServicesSection = () => {
                 <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center mx-auto mb-4">
                   <Code className="w-6 h-6 text-white" />
                 </div>
-                <h4 className="text-lg font-semibold text-foreground mb-2">Maintenance & Support</h4>
+                <h4 className="text-lg font-semibold text-foreground mb-2">Manutenção & Suporte</h4>
                 <p className="text-muted-foreground text-sm">
-                  Ongoing support and maintenance for all our solutions
+                  Suporte contínuo e manutenção para todas as nossas soluções
                 </p>
               </div>
             </div>

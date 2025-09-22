@@ -6,14 +6,14 @@ const AboutSection = () => {
           {/* Section Header */}
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6 fade-in">
-              About{" "}
+              Sobre a{" "}
               <span className="bg-gradient-primary bg-clip-text text-transparent">
                 CMW Solutions
               </span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto fade-in">
-              Your trusted partner for innovative security solutions and custom software development.
-              We specialize in protecting educational environments while building tomorrow's technology.
+              Seu parceiro confiável para soluções de segurança inovadoras e desenvolvimento de software personalizado.
+              Especializamo-nos em proteger ambientes educacionais enquanto construímos a tecnologia do futuro.
             </p>
           </div>
 
@@ -23,34 +23,34 @@ const AboutSection = () => {
             <div className="space-y-8 slide-in-left">
               <div>
                 <h3 className="text-2xl font-bold text-foreground mb-4">
-                  Our Mission
+                  Nossa Missão
                 </h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  At CMW Solutions, we're committed to creating safer educational environments 
-                  through advanced IP camera monitoring systems while delivering custom software 
-                  solutions that drive business growth and innovation.
+                  Na CMW Solutions, estamos comprometidos em criar ambientes educacionais mais seguros 
+                  através de sistemas avançados de monitoramento por câmeras IP, oferecendo soluções de software 
+                  personalizadas que impulsionam o crescimento e a inovação dos negócios.
                 </p>
               </div>
 
               <div>
                 <h3 className="text-2xl font-bold text-foreground mb-4">
-                  Our Expertise
+                  Nossa Expertise
                 </h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  With years of experience in both security technology and software development, 
-                  our team combines deep technical knowledge with a genuine understanding of our 
-                  clients' unique challenges and requirements.
+                  Com anos de experiência em tecnologia de segurança e desenvolvimento de software, 
+                  nossa equipe combina conhecimento técnico profundo com uma compreensão genuína dos 
+                  desafios únicos e requisitos de nossos clientes.
                 </p>
               </div>
 
               <div className="grid grid-cols-2 gap-6">
                 <div className="text-center p-6 bg-gradient-card rounded-xl border border-border">
                   <div className="text-3xl font-bold text-primary mb-2">5+</div>
-                  <div className="text-muted-foreground text-sm">Years of Excellence</div>
+                  <div className="text-muted-foreground text-sm">Anos de Excelência</div>
                 </div>
                 <div className="text-center p-6 bg-gradient-card rounded-xl border border-border">
                   <div className="text-3xl font-bold text-primary mb-2">150+</div>
-                  <div className="text-muted-foreground text-sm">Projects Completed</div>
+                  <div className="text-muted-foreground text-sm">Projetos Concluídos</div>
                 </div>
               </div>
             </div>
@@ -64,11 +64,11 @@ const AboutSection = () => {
                   </div>
                   <div>
                     <h4 className="text-xl font-semibold text-foreground mb-2">
-                      Security Focus
+                      Foco em Segurança
                     </h4>
                     <p className="text-muted-foreground">
-                      Specialized in educational institution security with comprehensive 
-                      IP camera monitoring solutions.
+                      Especializados em segurança de instituições educacionais com soluções 
+                      abrangentes de monitoramento por câmeras IP.
                     </p>
                   </div>
                 </div>
@@ -81,11 +81,11 @@ const AboutSection = () => {
                   </div>
                   <div>
                     <h4 className="text-xl font-semibold text-foreground mb-2">
-                      Custom Development
+                      Desenvolvimento Personalizado
                     </h4>
                     <p className="text-muted-foreground">
-                      Tailored software solutions built with cutting-edge technologies 
-                      to meet your specific business needs.
+                      Soluções de software sob medida construídas com tecnologias de ponta 
+                      para atender às suas necessidades específicas de negócio.
                     </p>
                   </div>
                 </div>
@@ -98,11 +98,11 @@ const AboutSection = () => {
                   </div>
                   <div>
                     <h4 className="text-xl font-semibold text-foreground mb-2">
-                      Partnership Approach
+                      Abordagem de Parceria
                     </h4>
                     <p className="text-muted-foreground">
-                      We work closely with our clients as true partners, ensuring 
-                      long-term success and ongoing support.
+                      Trabalhamos em estreita colaboração com nossos clientes como verdadeiros parceiros, 
+                      garantindo sucesso a longo prazo e suporte contínuo.
                     </p>
                   </div>
                 </div>

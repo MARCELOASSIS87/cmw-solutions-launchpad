@@ -30,22 +30,22 @@ const HeroSection = () => {
           {/* Announcement Badge */}
           <div className="inline-flex items-center bg-brand-light/10 backdrop-blur-sm border border-white/20 rounded-full px-6 py-2 mb-8 fade-in">
             <span className="text-sm font-medium text-white">
-              🎯 Specialized in School Security & Custom Development
+              🎯 Especializados em Segurança Escolar & Desenvolvimento Personalizado
             </span>
           </div>
 
           {/* Main Headline */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 fade-in">
-            Advanced Monitoring &
-            <span className="block bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-              Custom Solutions
+            Monitoramento Avançado &
+            <span className="block bg-gradient-to-r from-brand-light-blue to-brand-green bg-clip-text text-transparent">
+              Soluções Personalizadas
             </span>
           </h1>
 
           {/* Subtitle */}
           <p className="text-xl md:text-2xl text-gray-200 mb-8 max-w-3xl mx-auto leading-relaxed fade-in">
-            CMW Solutions delivers cutting-edge IP camera monitoring for educational institutions
-            and custom software development that transforms your vision into reality.
+            A CMW Solutions oferece monitoramento avançado por câmeras IP de última geração para instituições de ensino
+            e desenvolvimento de software personalizado que transforma sua visão em realidade.
           </p>
 
           {/* CTA Buttons */}
@@ -54,7 +54,7 @@ const HeroSection = () => {
               onClick={scrollToContact}
               className="btn-hero text-lg px-8 py-4"
             >
-              Contact Us Today
+              Entre em Contato Hoje
             </Button>
             <Button
               onClick={() => {
@@ -65,7 +65,7 @@ const HeroSection = () => {
               }}
               className="btn-hero-outline text-lg px-8 py-4 text-white border-white hover:bg-white hover:text-brand-navy"
             >
-              Our Services
+              Nossos Serviços
             </Button>
           </div>
 
@@ -74,19 +74,19 @@ const HeroSection = () => {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
               <div>
                 <div className="text-3xl font-bold text-white mb-2">50+</div>
-                <div className="text-gray-300 text-sm">Schools Protected</div>
+                <div className="text-gray-300 text-sm">Escolas Protegidas</div>
               </div>
               <div>
                 <div className="text-3xl font-bold text-white mb-2">24/7</div>
-                <div className="text-gray-300 text-sm">Monitoring</div>
+                <div className="text-gray-300 text-sm">Monitoramento</div>
               </div>
               <div>
                 <div className="text-3xl font-bold text-white mb-2">100+</div>
-                <div className="text-gray-300 text-sm">Custom Projects</div>
+                <div className="text-gray-300 text-sm">Projetos Personalizados</div>
               </div>
               <div>
                 <div className="text-3xl font-bold text-white mb-2">5</div>
-                <div className="text-gray-300 text-sm">Years Experience</div>
+                <div className="text-gray-300 text-sm">Anos de Experiência</div>
               </div>
             </div>
           </div>
